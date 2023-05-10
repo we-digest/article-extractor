@@ -23,7 +23,8 @@ const baseOpt = {
   entryPoints: ['src/main.js'],
   bundle: true,
   charset: 'utf8',
-  target: ['es2020', 'node14'],
+  // target: ['es2020', 'node14'], // origin
+  target: ['es2020', 'node12'], // fork
   pure: ['console.log', 'debug', 'alert'],
   legalComments: 'none',
   minify: true,
